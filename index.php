@@ -4,13 +4,13 @@
 <header>
     <div class="container-fluid">
         <div class="row" style="">
-            <div class="d-flex full-window align-item-center col-md-6 p-5" >
+            <div class="d-flex full-window align-item-center col-md-7 p-5" >
 
-                <div class="text-center text-light my-auto" >
+                <div id="header-text" class="text-center text-light my-auto w-50" >
                     <!-- <h3 class="text-light p-2">This is a new Beginning</h3> -->
-                    <h2 class="text-light p-2">A New World</h2>
-                    <h1 class="text-light p-2 mb-4 font-weight-bold">Within Sight</h1>
-                    <button type="button" class="btn btn-lg btn-outline-primary rounded-pill px-5" name="button"><span class="fs-6">Get Started</span></button>
+                    <h2 class="text-light p-2 fs-4">A NEW WORLD</h2>
+                    <h1 class="text-light p-2 mb-4 fs-1 font-weight-bold">WITHIN SIGHT</h1>
+                    <button type="button" class="btn btn-lg btn-outline-primary rounded-pill px-5 bg-white" name="button"><span class="fs-6">Get Started</span></button>
                 </div>
 
             </div>
@@ -47,7 +47,7 @@
 
 <div class="col-xs-12 col-sm-12 col-md-12" id="t-head">
     
-    <h2><b>Our Team</b></h2>
+    <h2><b>Our Teams</b></h2>
 
 </div>
 
