@@ -83,7 +83,7 @@
         <div class="row1">
 
             <div class="col-xs-12 col-sm-6 col-md-6" id="service-text">
-            <h1 id="heads">console gaming<br>Technolog</h1>
+            <h2 id="heads">console gaming<br>Technolog</h2>
 
                 <b><ol>
                 <li>HTC Vive Headset</li>
@@ -93,12 +93,12 @@
                 </ol></b>
             </div>
 
-                <img src="\images\service1.jpeg" class="img-fluid" alt="ser-img-1" width="500" height="400" id="ser-img1">
-            
-                <img src="\images\service2.png" class="img-fluid" alt="ser-img-1" width="500" height="400" id="ser-img2">
+                <img src="\images\service1.jpeg" alt="ser-img-1" width="500" height="298" id="ser-img1">
+                
+                <img src="\images\service2.png" alt="ser-img-1" width="500" height="300" id="ser-img2">
 
             <div class="col-xs-12 col-sm-6 col-md-6" id="service-text2">
-            <h1 id="heads2">Virtual Reality Lands</h1>
+            <h2 id="heads2">Virtual Reality Lands</h2>
 
                 <b><ol>
                 <li>Dreadhalls</li>
@@ -107,9 +107,9 @@
                 <li>InCell</li>
                 </ol></b>
             </div>
-
+            
             <div class="col-xs-12 col-sm-6 col-md-6" id="service-text">
-            <h1 id="heads">console gaming<br>Technolog</h1>
+            <h2 id="heads">Augmented Reality</h2>
 
                 <b><ol>
                 <li>HTC Vive Headset</li>
@@ -119,12 +119,12 @@
                 </ol></b>
             </div>
 
-                <img src="\images\service1.jpeg" class="img-fluid" alt="ser-img-1" width="500" height="400" id="ser-img1">
+                <img src="\images\service3.png"  alt="ser-img-1" width="500" height="300" id="ser-img1">
 
-                <img src="\images\service4.png" class="img-fluid" alt="ser-img-1" width="500" height="400" id="ser-img2">
+                <img src="\images\service4.png"  alt="ser-img-1" width="500" height="300" id="ser-img2">
 
             <div class="col-xs-12 col-sm-6 col-md-6" id="service-text2">
-            <h1 id="heads2">Virtual Reality Lands</h1>
+            <h2 id="heads2">Folding screen<br> Technology</h2>
 
                 <b><ol>
                 <li>Dreadhalls</li>
@@ -139,41 +139,121 @@
 </section>
 
 <section id="subscription">
-    <div class="container-fluid d-flex text-center justify-content-between">
-        <div class="card p-5 overflow-hidden sub-card">
+    
+    <div class="container d-flex text-center justify-content-around p-4" id="sub-cards">
+        
+        <div class="card p-3 pb-5 overflow-hidden sub-card mb-2">
             <div class="card-body">
-                <h2 class="card-title sub-title mb-5">PERSONAL</h2>
+                <h4 class="card-title sub-title mb-5">PERSONAL</h4>
                 <h4 class="card-text mb-3">Per Month</h4>
                 <h3 class="card-text mb-4">$10.99</h3>
                 <div class="btn card-link sub-btn fs-3">SUBSCRIBE</div>
             </div>
         </div>
 
-        <div class="card p-5 overflow-hidden sub-card">
+        <div class="card p-3 pb-5 overflow-hidden sub-card mb-2">
             <div class="card-body">
-                <h2 class="card-title sub-title mb-5">SMALL TEAM</h2>
+                <h4 class="card-title sub-title mb-5">SMALL TEAM</h4>
                 <h4 class="card-text mb-3">Per Month</h4>
                 <h3 class="card-text mb-4">$15.99</h3>
                 <div class="btn card-link sub-btn fs-3">SUBSCRIBE</div>
             </div>
         </div>
         
-        <div class="card p-5 overflow-hidden sub-card">
+        <div class="card p-3 pb-5 overflow-hidden sub-card mb-2">
             <div class="card-body">
-                <h2 class="card-title sub-title mb-5">ENTERPRISE</h2>
+                <h4 class="card-title sub-title mb-5">ENTERPRISE</h4>
                 <h4 class="card-text mb-3">Per Month</h4>
                 <h3 class="card-text mb-4">$20.99</h3>
                 <div class="btn card-link sub-btn fs-3">SUBSCRIBE</div>
             </div>
         </div>
+
     </div>
+
 </section>
 
+<!-- Contact Section Begins Here -->
+
+<section id="contact" class="mt-5">
+    <center><h2>CONTACT</h2></center>
+
+    <div class="row mt-5">
+        <div class="col-md-6 p-5 text-center ">
+            <div class="row">
+                
+                <div class="card p-3 border overflow-hidden col-md-6 border-0">
+                    <img src="/images/unplug-phone-icon.png" alt="" class=" mx-auto card-img-top contact-icon">
+                    <div class="card-body">
+                        <h4 class="card-title mb-2 fs-4">PHONE</h4>
+                        <h4 class="card-text fs-4">(592)223-4567</h4>
+                        
+                    </div>
+                </div>
+
+                <div class="card p-3  overflow-hidden col-md-6 border-0">
+                    <img src="/images/download.png" alt="" class="mx-auto card-img-top contact-icon">
+                    <div class="card-body">
+                        <h4 class="card-title mb-2 fs-4">EMAIL</h4>
+                        <h4 class="card-text fs-4">VR@virtualreality.net</h4>
+                        
+                        
+                    </div>
+                </div>
+                
+                
+
+            </div>  
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="card p-3 overflow-hidden border-0">
+                        <img src="/images/download (1).png" alt="" class="mx-auto card-img-top contact-icon">
+                        <div class="card-body">
+                            <h4 class="card-title fs-4 mb-2">ADDRESS</h4>
+                            <h4 class="card-text fs-4">Lot 1178 Warehouse 13 APT 304B</h4>
+                            
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="p-4">
+                <form>
+                    <div class=" mb-3">
+                        <div class="mb-3">
+                            <input type="text" class="form-control" name="name" placeholder="Name">
+                        </div>
+                        <div class="">
+                            <input type="email" class="form-control" name="email" placeholder="Email">
+                        </div>
+                        </div>
+                        <div class="row mb-3">
+                            <div class="">
+                                <input type="text" class="form-control" name="subject" placeholder="Subject">
+                            </div>
+                        </div>
+
+                        <div class="form-row mb-3">
+                            <textarea class="form-control" id="textAreaExample1" rows="4" placeholder="Message"></textarea>
+                            <!-- <label class="form-label" for="textAreaExample">Message</label> -->
+                        </div>
+                    <center><button type="button" name="button" class="btn rounded-0 mt-5 py-3 px-4" id="contact-btn">SEND</button></center>
+                </form>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- Contact Section Ends Here -->
 
 <section id="sign-up">
     
     <div class="s-upcontainter">
-    <h1>sign up</h1>
+    <h1 id="s-heading">sign up</h1>
 
    
 
@@ -186,7 +266,7 @@
   <input type="password" class="form-control" placeholder="Password"  aria-describedby="basic-addon1" id="pword" >
   <p id="form-paragraph">Forgot your password?</p>
   <button class="btn-class">SIGN IN</button>
-  <p id="createacc">Create account</p>
+  <a><p id="createacc">Create account</p></a>
   
 </div>
 
