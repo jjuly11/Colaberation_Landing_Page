@@ -128,7 +128,7 @@ header::before{
   }
   
   .desc {
-    
+                       
     text-align: center;
   }
 
@@ -137,17 +137,20 @@ header::before{
   {
       margin-top: 2%;
   }
+
   #service-text
   {
     float: left;
-    margin-top: 3%;
-    margin-left: 12%;
+    margin-left: 22%;
+    margin-right: 4%;
+    width: 30%;
   }
 
-  #heads
+  #ser-img1
   {
-      text-align: center;
-      
+      margin-top: 1%;
+      float: left;
+      clear: none;
   }
 
   .row1
@@ -156,51 +159,63 @@ header::before{
       margin-bottom: 2%;
   }
 
-  #ser-img1
-  {
-      float: right;
-      clear: none;
-      margin-right: 11%;
-
-  }
+  
 
   #heads
   {
-      width: 46%;
+      width: 90%;
+      text-align: center;
       background: #580248;
+      margin-bottom: 11%;
   }
 
   .row1 ol li
   {
-        font-size: 30px;
+        font-size: 25px;
   }
 
   #heads2
   {
-      width: 52%;
+      width: 65%;
       background: #580248;
+      margin-bottom: 11%;
+      text-align: center;
   }
 
   #service-text2
   {
-    float: right;
-    margin-top: 4%;
-    margin-right: 2%;
-    width: 35%;
+    float: left;
+    margin-top: 6%; 
+    width: 30%;
+    margin-bottom: 6%;
   }
 
   #ser-img2
   {
-      float: left;
-      clear: none;  
-      margin-top: 2%;
-      margin-left: 12%;
-
+      float: left;  
+      margin-top: 6%;
+      margin-left: 22%;
+      margin-right: 8%;
   }
 
   /* end-Servicers sytle */
 
   /* Subscription Section Begins */
+  #subscription{
+      position:relative;
+  }
+  #sub-cards{
+      position: relative;
+      background-image: url("/images/service2.png");
+      background-repeat: no-repeat;
+      background-position:center;
+      background-size:cover;
+      flex-direction: row;
+  }
+  .sub-card{
+      /* background-color: transparent; */
+      opacity: 0.8;
+  }
   .sub-card:before{
     content: '';
     position: absolute;
@@ -214,6 +229,7 @@ header::before{
   }
   .card-body{
       position: relative;
+      background-color: transparent;
       /* opacity: 0.7; */
   }
   .sub-title{
@@ -233,8 +249,29 @@ header::before{
       background-color: #580248 !important;
       color: #fff !important;
   }
+  .sub-btn:hover{
+    background-color: #fff !important;
+    color: #580248!important;
+}
   /* Subscription Section Ends */
 
+  /* Contact Section Start*/
+
+.contact-icon{
+    width: 6em;
+    height: 6em;
+}
+
+#contact-btn{
+    background-color: #580248;
+    color: #fff;
+}
+#contact-btn:hover{
+    background-color: #fff;
+    color:  #580248;
+    border: 1px solid #580248;
+}
+  /* Contact Section Ends */
   
   
  #sign-up{
@@ -284,13 +321,23 @@ header::before{
     text-transform: none;
     font-size:20px;
     position:relative;
-    bottom:-950px;
+    bottom:-80px;
     text-decoration:underline;
     right:-570px;
    
 
  }
-button{
+ #s-heading{
+
+    padding-top:23px;
+ }
+ 
+ #sign-up{
+
+    position:relative;
+    bottom:-100px;
+ }
+.btn-class{
 
     border:white;
     font-size:20px;
@@ -316,5 +363,8 @@ button{
 @media(max-width: 576px){
     #header-text{
         width: 100% !important;
+    }
+    #sub-cards{
+        flex-direction: column;
     }
 }
