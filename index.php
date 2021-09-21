@@ -23,14 +23,18 @@
 
 
 
-<div class="row" id="v_r" id="middle">
+<section id="about">
+
+    <center><h2 class="mt-4">ABOUT</h2></center>
+
+    <div class="row" id="v_r" id="middle">
 
     <div class="col-xs-12 col-sm-8 col-md-6" >
 
         <img src="images\vr.png" alt="img1" class="img-fluid" id="img1">
 
     </div>
-   
+
 
     <div class="col-xs-12 col-sm-8 col-md-6" id="v_r">
 
@@ -43,8 +47,9 @@
         <button type="button" class="btn btn-secondary btn-lg">See More</button>
 
     </div>
-</div>
+    </div>
 
+</section>
 <div class="col-xs-12 col-sm-12 col-md-12" id="t-head">
     
     <h2><b>Our Teams</b></h2>
@@ -220,8 +225,8 @@
         </div>
         <div class="col-md-6">
             <div class="p-4">
-                <form>
-                    <div class=" mb-3">
+                <form class="mt-5">
+                    <div class=" mb-3 ">
                         <div class="mb-3">
                             <input type="text" class="form-control" name="name" placeholder="Name">
                         </div>
@@ -262,8 +267,8 @@
  
  
   <div>
-  <input type="email" class="form-control" placeholder="Email"  aria-describedby="basic-addon1">
-  <input type="password" class="form-control" placeholder="Password"  aria-describedby="basic-addon1" id="pword" >
+  <input type="email" class="form-control3" placeholder="Email"    aria-describedby="basic-addon1">
+  <input type="password" class="form-control" id="p-inp" placeholder="Password"  aria-describedby="basic-addon1" id="pword" >
   <p id="form-paragraph">Forgot your password?</p>
   <button class="btn-class">SIGN IN</button>
   <a><p id="createacc">Create account</p></a>

@@ -11,7 +11,7 @@
     <title>Landing Page</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light" style="padding: 0;" >
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top" style="padding: 0;" >
         <div class="container-fluid" id="my-nav">
             
             <a class="navbar-brand" href="#">
@@ -26,7 +26,7 @@
                         <a class="nav-link active text-white" aria-current="page" href="#">HOME</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="#">ABOUT</a>
+                        <a class="nav-link text-white" href="#about">ABOUT</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -42,11 +42,11 @@
                     </li>
                     
                     <li class="nav-items">
-                        <a class="nav-link text-white" href="#">CONTACT</a>
+                        <a class="nav-link text-white" href="#contact">CONTACT</a>
                     </li>
                     
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="#">SIGNUP</a>
+                        <a class="nav-link text-white" href="sign-up">SIGNUP</a>
                     </li>
                 </ul>
             </div>

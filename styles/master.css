@@ -17,7 +17,7 @@ body{
 #my-nav{
     padding: 0;
     margin: 0;
-    background-color: #580248;
+    background-color: #580248de;
     /* background-color: black !important; */
 }
 /* Nav Bar Ends */
@@ -288,13 +288,20 @@ header::before{
     font-weight:bold;
     font-size:40px;
  }
- .form-control{
+ .form-control3{
 
     position:relative;
     right:-570px;
     width:320px;
-    height:59px;
+    height:46px;
     border-radius:0;
+ }
+ #p-inp{
+
+    position:relative;
+    right:-178%;
+    border-radius: 0;
+    top:30px;
  }
  #pword{
 
@@ -307,15 +314,25 @@ header::before{
  #pword::placeholder{
 
     position:relative;
-    right:-10px;
+    right:10px;
  }
+ .form-control3::placeholder{
+
+    font-size:20px;
+    position:relative;
+    right:-10px;
+    top:-1px;
+ } 
  #form-paragraph{
 
     text-transform: none;
     font-size:20px;
     position:relative;
     bottom:-60px;
-    right:-570px;
+    right:-560px;
+ }
+ .form-control3{
+     font-size:20px;
  }
  #createacc{
     text-transform: none;
@@ -323,7 +340,7 @@ header::before{
     position:relative;
     bottom:-80px;
     text-decoration:underline;
-    right:-570px;
+    right:-560px;
    
 
  }
@@ -345,7 +362,7 @@ header::before{
     width:90px;
     color:#580248;
     position:relative;
-    right:-570px;
+    right:-560px;
     bottom:-50px;
  }
 
