@@ -255,7 +255,7 @@
 
 <!-- Contact Section Ends Here -->
 
-<section id="sign-up">
+<section id="sign-up" class="mb-5">
     
     <div class="s-upcontainter">
     <h1 id="s-heading">sign up</h1>
@@ -277,21 +277,75 @@
 
 
 
-<div>
- 
 
 
-
+    </div>        
 </div>
+</section>
 
-</div>
+<!-- <section id="articles" class="">
 
+    <div class="container d-flex text-center justify-content-around p-4" id="sub-cards">
         
+        <div class="card p-3 pb-5 overflow-hidden sub-card mb-2">
+            <div class="card-body">
+                <h4 class="card-title sub-title mb-5">PERSONAL</h4>
+                <h4 class="card-text mb-3">Per Month</h4>
+                <h3 class="card-text mb-4">$10.99</h3>
+                <div class="btn card-link sub-btn fs-3">SUBSCRIBE</div>
+            </div>
+        </div>
+
+        <div class="card p-3 pb-5 overflow-hidden sub-card mb-2">
+            <div class="card-body">
+                <h4 class="card-title sub-title mb-5">SMALL TEAM</h4>
+                <h4 class="card-text mb-3">Per Month</h4>
+                <h3 class="card-text mb-4">$15.99</h3>
+                <div class="btn card-link sub-btn fs-3">SUBSCRIBE</div>
+            </div>
+        </div>
+        
+        <div class="card p-3 pb-5 overflow-hidden sub-card mb-2">
+            <div class="card-body">
+                <h4 class="card-title sub-title mb-5">ENTERPRISE</h4>
+                <h4 class="card-text mb-3">Per Month</h4>
+                <h3 class="card-text mb-4">$20.99</h3>
+                <div class="btn card-link sub-btn fs-3">SUBSCRIBE</div>
+            </div>
+        </div>
+
+    </div>
+
+</section> -->
+
+
+
+<footer id="foot">
+
+<section id="section1">
+
+<div>
+    <img href="/images/purple_support_icon.png"></img>
+
 </div>
-
-
 
 </section>
+
+<section id="section2">
+
+</section>
+
+<section id="section3">
+
+</section>
+
+
+
+</footer>
+
+
+
+
 
 
 
