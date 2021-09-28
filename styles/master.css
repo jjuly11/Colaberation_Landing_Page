@@ -8,6 +8,10 @@ body{
     font-family: Helvetica, sans-serif;
     /* background-color: black; */
 }
+
+section{
+    overflow: hidden;
+}
 /* General Settings End */
 /* Nav Bar Begins */
 #logo{
@@ -365,11 +369,67 @@ header::before{
     right:-560px;
     bottom:-50px;
  }
- #foot{
+ /* Article Section Start */
+ #articles{
+     margin-top: 10em;
+ }
+ .article-card .card-body{
+     border-right: 0.001em solid #000;
+     border-left: 0.001em solid #000;
+     border-bottom: 0.001em solid #000;
+     padding: none !important;
+ }
+ .article_img{
+    width: 20em;
+    height: 12em;
+    /* opacity: 1;  */
+ }
+ .article_date_text{
+    font-size: 0.7em !important; 
+    font-weight: 600;
+ }
+ .article_small_icons{
+     width: 1rem;
+     display: inline-block !important;
+ }
+ /* Article Section End */
+ #section1  {
 
     background-color:#580248;
+    position:relative;
+    top:150px;
+    height:500px;
+ }
+ #img1{
+
+    height:45px;
+    width:45px;
+    position:relative;
+    left:-54px;
  }
 
+ #img2{
+
+    height:45px;
+    width:45px;
+    
+ }
+ #call-para{
+
+    color:white;
+    position:relative;
+    bottom:-55px;
+    left:-32px;
+    font-size:20px;
+ }
+ #phone-para{
+
+    color:white;
+    position:relative;
+    bottom:-55px;
+    left:-38px;
+    font-size:20px;
+ }
 
 
 /* .my-nav{ */

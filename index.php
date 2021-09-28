@@ -197,7 +197,7 @@
                 </div>
 
                 <div class="card p-3  overflow-hidden col-md-6 border-0">
-                    <img src="/images/download.png" alt="" class="mx-auto card-img-top contact-icon">
+                    <img src="/images/purple_email.png" alt="" class="mx-auto card-img-top contact-icon">
                     <div class="card-body">
                         <h4 class="card-title mb-2 fs-4">EMAIL</h4>
                         <h4 class="card-text fs-4">VR@virtualreality.net</h4>
@@ -212,7 +212,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="card p-3 overflow-hidden border-0">
-                        <img src="/images/download (1).png" alt="" class="mx-auto card-img-top contact-icon">
+                        <img src="/images/purple_arrow.png" alt="" class="mx-auto card-img-top contact-icon">
                         <div class="card-body">
                             <h4 class="card-title fs-4 mb-2">ADDRESS</h4>
                             <h4 class="card-text fs-4">Lot 1178 Warehouse 13 APT 304B</h4>
@@ -283,40 +283,100 @@
 </div>
 </section>
 
-<!-- <section id="articles" class="">
+<section id="articles" class="">
 
-    <div class="container d-flex text-center justify-content-around p-4" id="sub-cards">
-        
-        <div class="card p-3 pb-5 overflow-hidden sub-card mb-2">
+    
+    <center><h2>Recent Article</h2></center>
+    <center><p class="fs-1">Latest News from Us</p></center>
+    <div class="container d-flex text-center justify-content-around p-4" id="">
+        <!-- All Cards for article section are in here -->
+        <div class="card overflow-hidden article-card mb-2">
+            <img src="/images/article_img1.jpeg" alt="" class="card-img-top img_fluid article_img">
             <div class="card-body">
-                <h4 class="card-title sub-title mb-5">PERSONAL</h4>
-                <h4 class="card-text mb-3">Per Month</h4>
-                <h3 class="card-text mb-4">$10.99</h3>
-                <div class="btn card-link sub-btn fs-3">SUBSCRIBE</div>
+                <!-- Header Part With Little Icons Begins Here -->
+                <div class="row card-title">
+                    <div class="col-sm-6">
+                        
+                        <p class="article_date_text"><img src="/images/purple_calendar.png" class="article_small_icons" alt="">September 21,2021</p>
+                    </div>
+                    <div class="col-sm-6">
+                        
+                        <p class="article_date_text" ><img src="/images/purple_support_icon.jpeg" class="article_small_icons" alt="">AR Services</p>
+                    </div>
+                </div>
+                <!-- Header Part With Little Icons Ends Here -->
+                <!-- Paragraph For Articles Begins -->
+                <p class="card-text">
+                    Maintain a high level of availability to keep your business safe.
+                </p>
+                <p class="card-text">
+                    We’ve been a thought leader in strategy for nearly five decades.
+                </p>
+                
+                <div class="btn card-link fs-3">SUBSCRIBE</div>
+                <!-- Paragraph For Articles Ends -->
             </div>
         </div>
 
-        <div class="card p-3 pb-5 overflow-hidden sub-card mb-2">
+        <div class="card overflow-hidden article-card mb-2">
+            <img src="/images/article_img2.webp" alt="" class="card-img-top img_fluid article_img">
             <div class="card-body">
-                <h4 class="card-title sub-title mb-5">SMALL TEAM</h4>
-                <h4 class="card-text mb-3">Per Month</h4>
-                <h3 class="card-text mb-4">$15.99</h3>
-                <div class="btn card-link sub-btn fs-3">SUBSCRIBE</div>
+                <!-- Header Part With Little Icons Begins Here -->
+                <div class="row card-title">
+                    <div class="col-sm-6">
+                        
+                        <p class="article_date_text"><img src="/images/purple_calendar.png" class="article_small_icons" alt="">September 21,2021</p>
+                    </div>
+                    <div class="col-sm-6">
+                        
+                        <p class="article_date_text" ><img src="/images/purple_support_icon.jpeg" class="article_small_icons" alt="">AR Services</p>
+                    </div>
+                </div>
+                <!-- Header Part With Little Icons Ends Here -->
+                <!-- Paragraph For Articles Begins -->
+                <p class="card-text">
+                    Maintain a high level of availability to keep your business safe.
+                </p>
+                <p class="card-text">
+                    We’ve been a thought leader in strategy for nearly five decades.
+                </p>
+                
+                <div class="btn card-link  fs-3">SUBSCRIBE</div>
+                <!-- Paragraph For Articles Ends -->
             </div>
         </div>
         
-        <div class="card p-3 pb-5 overflow-hidden sub-card mb-2">
+        <div class="card overflow-hidden article-card mb-2">
+        <img src="/images/article_img3.jpeg" alt="" class="card-img-top img_fluid article_img">
             <div class="card-body">
-                <h4 class="card-title sub-title mb-5">ENTERPRISE</h4>
-                <h4 class="card-text mb-3">Per Month</h4>
-                <h3 class="card-text mb-4">$20.99</h3>
-                <div class="btn card-link sub-btn fs-3">SUBSCRIBE</div>
+                <!-- Header Part With Little Icons Begins Here -->
+                <div class="row card-title">
+                    <div class="col-sm-6">
+                        
+                        <p class="article_date_text"><img src="/images/purple_calendar.png" class="article_small_icons" alt="">September 21,2021</p>
+                    </div>
+                    <div class="col-sm-6">
+                        
+                        <p class="article_date_text" ><img src="/images/purple_support_icon.jpeg" class="article_small_icons" alt="">AR Services</p>
+                    </div>
+                </div>
+                <!-- Header Part With Little Icons Ends Here -->
+                <!-- Paragraph For Articles Begins -->
+                <p class="card-text">
+                    Maintain a high level of availability to keep your business safe.
+                </p>
+                <p class="card-text">
+                    We’ve been a thought leader in strategy for nearly five decades.
+                </p>
+                
+                <div class="btn card-link fs-3">SUBSCRIBE</div>
+                <!-- Paragraph For Articles Ends -->
             </div>
         </div>
 
     </div>
 
-</section> -->
+</section>
 
 
 
@@ -325,19 +385,35 @@
 <section id="section1">
 
 <div>
-    <img href="/images/purple_support_icon.png"></img>
+    <img src="/images/light_phone_icon.png" id="img1"></img>
+    <p id="call-para">Call us</p>
+    <p id="phone-para">+1 (123) 456789</p>
+
+
+</div>
+</section>
+
+
+
+<section id="section2">
+
+<div>
+    <img src="/images/light_email_icon.png" id="img2"></img>
+    <p id="call-para">Call us</p>
+    <p id="phone-para">+1 (123) 456789</p>
+
 
 </div>
 
-</section>
 
-<section id="section2">
 
 </section>
 
 <section id="section3">
 
 </section>
+
+
 
 
 
