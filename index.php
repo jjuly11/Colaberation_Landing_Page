@@ -288,91 +288,133 @@
     
     <center><h2>Recent Article</h2></center>
     <center><p class="fs-1">Latest News from Us</p></center>
-    <div class="container d-flex text-center justify-content-around p-4" id="">
+    <div class="container d-flex text-center justify-content-around p-4" id="article-cards">
         <!-- All Cards for article section are in here -->
-        <div class="card overflow-hidden article-card mb-2">
-            <img src="/images/article_img1.jpeg" alt="" class="card-img-top img_fluid article_img">
-            <div class="card-body">
-                <!-- Header Part With Little Icons Begins Here -->
-                <div class="row card-title">
-                    <div class="col-sm-6">
-                        
-                        <p class="article_date_text"><img src="/images/purple_calendar.png" class="article_small_icons" alt="">September 21,2021</p>
+        <a href="http://" target="_blank" class="nav-link" rel="noopener noreferrer">
+            <div class="card overflow-hidden article-card mb-2">
+                <img src="/images/article_img1.jpeg" alt="" class="card-img-top img_fluid article_img">
+                <div class="card-body">
+                    <!-- Header Part With Little Icons Begins Here -->
+                    <div class="row card-title">
+                        <div class="col-sm-6">
+                            
+                            <p class="article_date_text"><img src="/images/purple_calendar.png" class="article_small_icons" alt="">September 21,2021</p>
+                        </div>
+                        <div class="col-sm-6">
+                            
+                            <p class="article_date_text" ><img src="/images/purple_support_icon.jpeg" class="article_small_icons" alt="">AR Services</p>
+                        </div>
                     </div>
-                    <div class="col-sm-6">
-                        
-                        <p class="article_date_text" ><img src="/images/purple_support_icon.jpeg" class="article_small_icons" alt="">AR Services</p>
+                    <!-- Header Part With Little Icons Ends Here -->
+                    <!-- Paragraph For Articles Begins -->
+                    <p class="card-text article_card_text">
+                        Maintain a high level of availability to keep your business safe.
+                    </p>
+                    <p class="card-text article_card_text">
+                        We’ve been a thought leader in strategy for nearly five decades.
+                    </p>
+                    
+                    <!-- Sub Section For Article Cards Footer Begins -->
+                    <div class="article_footer row mt-5">
+                        <div class="col-sm-3">
+                            <img src="/images/logo.png" alt="" class="img-fluid article_logo">
+                        </div>
+                        <div class="col-sm-9">
+                            <p class="article_card_text my-3">
+                                By Ashenna Assanah
+                            </p>
+                        </div>
                     </div>
-                </div>
-                <!-- Header Part With Little Icons Ends Here -->
-                <!-- Paragraph For Articles Begins -->
-                <p class="card-text">
-                    Maintain a high level of availability to keep your business safe.
-                </p>
-                <p class="card-text">
-                    We’ve been a thought leader in strategy for nearly five decades.
-                </p>
-                
-                <div class="btn card-link fs-3">SUBSCRIBE</div>
-                <!-- Paragraph For Articles Ends -->
-            </div>
-        </div>
 
-        <div class="card overflow-hidden article-card mb-2">
-            <img src="/images/article_img2.webp" alt="" class="card-img-top img_fluid article_img">
-            <div class="card-body">
-                <!-- Header Part With Little Icons Begins Here -->
-                <div class="row card-title">
-                    <div class="col-sm-6">
-                        
-                        <p class="article_date_text"><img src="/images/purple_calendar.png" class="article_small_icons" alt="">September 21,2021</p>
-                    </div>
-                    <div class="col-sm-6">
-                        
-                        <p class="article_date_text" ><img src="/images/purple_support_icon.jpeg" class="article_small_icons" alt="">AR Services</p>
-                    </div>
+                    <!-- Sub Section For Article Cards Footer Ends -->
+                    <!-- Paragraph For Articles Ends -->
                 </div>
-                <!-- Header Part With Little Icons Ends Here -->
-                <!-- Paragraph For Articles Begins -->
-                <p class="card-text">
-                    Maintain a high level of availability to keep your business safe.
-                </p>
-                <p class="card-text">
-                    We’ve been a thought leader in strategy for nearly five decades.
-                </p>
-                
-                <div class="btn card-link  fs-3">SUBSCRIBE</div>
-                <!-- Paragraph For Articles Ends -->
             </div>
-        </div>
+        </a>
+
+        <a href="http://" class="nav-link" target="_blank" rel="noopener noreferrer">
+            <div class="card overflow-hidden article-card mb-2">
+                <img src="/images/article_img2.webp" alt="" class="card-img-top img_fluid article_img">
+                <div class="card-body">
+                    <!-- Header Part With Little Icons Begins Here -->
+                    <div class="row card-title">
+                        <div class="col-sm-6">
+                            
+                            <p class="article_date_text"><img src="/images/purple_calendar.png" class="article_small_icons" alt="">September 21,2021</p>
+                        </div>
+                        <div class="col-sm-6">
+                            
+                            <p class="article_date_text" ><img src="/images/purple_support_icon.jpeg" class="article_small_icons" alt="">HR Services</p>
+                        </div>
+                    </div>
+                    <!-- Header Part With Little Icons Ends Here -->
+                    <!-- Paragraph For Articles Begins -->
+                    <p class="card-text article_card_text">
+                        What’s Holding the VR Industry Back?
+                    </p>
+                    <p class="card-text article_card_text">
+                        We’ve been a thought leader in strategy for nearly five decades.
+                    </p>
+                    
+                    <!-- Sub Section For Article Cards Footer Begins -->
+                    <div class="article_footer row mt-5">
+                        <div class="col-sm-3">
+                            <img src="/images/logo.png" alt="" class="img-fluid article_logo">
+                        </div>
+                        <div class="col-sm-9">
+                            <p class="article_card_text my-3">
+                                By O'Brian Austin
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Sub Section For Article Cards Footer Ends -->
+                    <!-- Paragraph For Articles Ends -->
+                </div>
+            </div>
+        </a>
         
-        <div class="card overflow-hidden article-card mb-2">
-        <img src="/images/article_img3.jpeg" alt="" class="card-img-top img_fluid article_img">
-            <div class="card-body">
-                <!-- Header Part With Little Icons Begins Here -->
-                <div class="row card-title">
-                    <div class="col-sm-6">
-                        
-                        <p class="article_date_text"><img src="/images/purple_calendar.png" class="article_small_icons" alt="">September 21,2021</p>
+        <a href="http://" class="nav-link" target="_blank" rel="noopener noreferrer">
+            <div class="card overflow-hidden article-card mb-2">
+                <img src="/images/article_img3.jpeg" alt="" class="card-img-top img_fluid article_img">
+                <div class="card-body">
+                    <!-- Header Part With Little Icons Begins Here -->
+                    <div class="row card-title">
+                        <div class="col-sm-6">
+                            
+                            <p class="article_date_text"><img src="/images/purple_calendar.png" class="article_small_icons" alt="">September 21,2021</p>
+                        </div>
+                        <div class="col-sm-6">
+                            
+                            <p class="article_date_text" ><img src="/images/purple_support_icon.jpeg" class="article_small_icons" alt="">Gaming Services</p>
+                        </div>
                     </div>
-                    <div class="col-sm-6">
-                        
-                        <p class="article_date_text" ><img src="/images/purple_support_icon.jpeg" class="article_small_icons" alt="">AR Services</p>
+                    <!-- Header Part With Little Icons Ends Here -->
+                    <!-- Paragraph For Articles Begins -->
+                    <p class="card-text article_card_text">
+                        This Week’s Top gaming services Stories
+                    </p>
+                    <p class="card-text article_card_text">
+                        We’ve been a thought leader in strategy for nearly five decades.
+                    </p>
+                    
+                    <!-- Sub Section For Article Cards Footer Begins -->
+                    <div class="article_footer row mt-5">
+                        <div class="col-sm-3">
+                            <img src="/images/logo.png" alt="" class="img-fluid article_logo">
+                        </div>
+                        <div class="col-sm-9">
+                            <p class="article_card_text my-3">
+                                By Joel July
+                            </p>
+                        </div>
                     </div>
+
+                    <!-- Sub Section For Article Cards Footer Begins -->
+                    <!-- Paragraph For Articles Ends -->
                 </div>
-                <!-- Header Part With Little Icons Ends Here -->
-                <!-- Paragraph For Articles Begins -->
-                <p class="card-text">
-                    Maintain a high level of availability to keep your business safe.
-                </p>
-                <p class="card-text">
-                    We’ve been a thought leader in strategy for nearly five decades.
-                </p>
-                
-                <div class="btn card-link fs-3">SUBSCRIBE</div>
-                <!-- Paragraph For Articles Ends -->
             </div>
-        </div>
+        </a>
 
     </div>
 

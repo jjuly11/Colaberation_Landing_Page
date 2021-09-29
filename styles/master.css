@@ -373,6 +373,15 @@ header::before{
  #articles{
      margin-top: 10em;
  }
+ #article-cards{
+     flex-direction: row;
+ }
+ .article-card{
+    width: 20em;
+    /* To Fix the problem with the ancour tag turning the text blue */
+    color: #000;    
+    /* text-decoration: none !important; */
+ }
  .article-card .card-body{
      border-right: 0.001em solid #000;
      border-left: 0.001em solid #000;
@@ -392,6 +401,28 @@ header::before{
      width: 1rem;
      display: inline-block !important;
  }
+ .article_card_text{
+     font-weight: 600;
+ }
+
+ .article_footer:before{
+    content: '';
+    position: absolute;
+    bottom: 30%;
+    left: 0;
+    width: 160%;
+    background-color: #580248;
+    height: 0.2rem;
+ }
+ /* Footer Of Article Section Begins*/
+
+.article_logo{
+    width: 100%;
+}
+
+
+ /* Footer Of Article Section Ends */
+
  /* Article Section End */
  #section1  {
 
@@ -448,4 +479,15 @@ header::before{
     #sub-cards{
         flex-direction: column;
     }
+    /* Article Section Responsive Styles Begins */
+    #article-cards{
+        flex-direction: column;
+    }
+    .article_logo{
+        width: 25%;
+    }
+    .article_footer:before{
+        bottom: 38%;
+    }
+    /* Article Section Responsive Styles Ends */
 }
